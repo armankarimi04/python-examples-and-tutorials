@@ -1,0 +1,12 @@
+- FastAPI is based on AnyIO. Compatible with 'asyncio' and 'trio'
+- Coroutines with 'async' and 'await'
+
+KernelCI (a community-led system for upstream linux kernel)
+KernelCI API: FastAPI in practice: a new backend for KernelCI
+KernelCI main building blocks are FastAPI, MongoDB, Redis, Storage.
+
+
+look at the files with this order:
+1. test_main.py (non async fixture and a simple test that will fail)
+2. test_main_with_pubsub_mock.py (non async fixture with redis/pubsub mechanism mocked)
+3. test_main_async.py (async fixture and async test)

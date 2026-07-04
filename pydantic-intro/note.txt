@@ -1,0 +1,5 @@
+Pydantic is a python data validation library:
+    benefits:
+    IDE type hints
+    Data validation
+    JSON serialization

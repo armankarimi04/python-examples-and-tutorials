@@ -1,0 +1,1 @@
+Book: The self-taught computer scientist - the beginner's guide to data structures & algorithms

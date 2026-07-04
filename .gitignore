@@ -10,3 +10,4 @@ uploads
 assets
 dist
 node_modules
+.pytest_cache

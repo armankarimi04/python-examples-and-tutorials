@@ -1,0 +1,29 @@
+How does a computer store characters?
+
+A character set is a map between characters and binary numbers.
+
+Computer scientists use character encoding to implement different character sets.
+
+American Standard Code for Information Exchange (ASCII) maps each letter of alphabet to a 7-bit number.
+
+e.g. ASCII value of A is 1000001 in binary and 65 in base 10.
+
+Uppercase letters, lowercase letters, punctuation symbols, numerals, and various control characters that indicate actions, such as page breaks and line feeds, all have ASCII codes.
+
+For numbers 0 through 9, ASCII has codes for them as well, because here, they are not considered numeric values.
+They are characters for non-mathematical purposes, such as expressing numerals in an street address.
+
+With ASCII, 256 characters can be represented. This is not enough for other writing sytems like chinese or japanese.
+
+Which is why Unicode character set was developed.
+
+Character encoding means assigning a number to characters for digital representation.
+
+UTF-8 is a character encoding computer scientists use to implement Unicode character set.
+
+Unlike ASCII (7 or 8 bits), UTF-8 uses 32 bits to encode each character. (allows for more than a million characters)
+
+UTF-8 is compatible with ASCII (Latin-script alphabet is the same in both).
+
+
+

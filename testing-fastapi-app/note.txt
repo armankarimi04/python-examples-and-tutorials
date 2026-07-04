@@ -1,0 +1,1 @@
+we don't need to install pytest async plugins, because we already installed httpx and 'anyio' comes with it (or it came with something else, what matters is that it will probably be already installed).

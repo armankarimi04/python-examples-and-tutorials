@@ -1,0 +1,2 @@
+Book: Practical Cryptography in Python: Learning Correct Cryptography by Example
+Publication: Apress

@@ -1,0 +1,5 @@
+Almost always use the the programming language's built-in sorting function.
+
+Do not attempt to implement and use the classic algorithms in real world examples.
+(implement manually only for learning purposes)
+

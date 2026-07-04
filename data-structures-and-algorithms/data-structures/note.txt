@@ -1,0 +1,40 @@
+# A data structure is a way of organizing data in a computer so programmers can effectively use it in their programs.
+
+# an abstract data type is a description of a data structure, whereas a data structure is an actual implementation.
+
+# e.g. a list is an abstract data type, it describes a data structure that holds a group of items, where each item has a position relative to others.
+
+# python's list is a data structure.
+
+# an abstract data type, could have multiple implementations in different ways
+
+# data structures can be classified by different properties, e.g. linear and non-linear.
+
+# linear data structure arranges data in a sequence. like python's list. each element can have an element before or after it.
+
+# non-linear data structure can hold data nonsequentially.
+# e.g. a graph. each element can be connected to many other elements.
+
+# traversing a data structure means going from the first element to the last.
+
+# in linear data structures, it is easy (does not require backtracking)
+
+# in non-linear data structures a bit harder (often requires backtracking, meaning to move backwards)
+
+# another factor to classify, is whether they are static or dynamic.
+
+# static -> size is fixed (usually defined when created, size is fixed, but values may change)
+# dynamic -> they can grow in size or shrink
+
+# python does not have static data structures
+
+# for static data structure, certain amount of memory must be allocated.
+
+# if you know the number of elements (size) of the data structure needed in advance, they can outperform the dynamic ones
+
+# for example, allowing users, exactly up to 10 'undo' operations, static data structure would be appropriate
+
+# dynamic ds is often good choice for situations where amount of data is unknown and memory space is limited
+
+# data structures have their pros and cons, 
+# e.g. a python dict with a bilion data pieces is still very efficient for checking if an item exists, a graph is not

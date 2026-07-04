@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Optimizer</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+    <div class="container mt-5">
+        <div class="card shadow-sm">
+            <div class="card-header text-center">
+                <h2 class="mb-0">Image Optimizer</h2>
+                <small class="text-muted">Resize or reduce image quality</small>
+            </div>
+            <div class="card-body">
+                <form method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="image" class="form-label">Choose Image</label>
+                        <input type="file" class="form-control" name="image" id="image" required />
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="width" class="form-label">Width (px)</label>
+                            <input type="number" class="form-control" name="width" id="width" placeholder="Optional" />
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="height" class="form-label">Height (px)</label>
+                            <input type="number" class="form-control" name="height" id="height"
+                                placeholder="Optional" />
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="quality" class="form-control">Quality (1-100)</label>
+                        <input type="number" class="form-control" name="quality" id="quality" value="85" />
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">
+                            Optimize Image
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../static/js/base.js"></script>
+</body>
+
+</html>
